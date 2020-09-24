@@ -3,14 +3,14 @@ import { data, json } from "./analytics_data";
 import { DataTables } from "survey-analytics/survey.analytics.datatables.js";
 import * as Survey from "survey-react";
 import $ from "jquery";
-import "datatables.net/js/jquery.dataTables.js";
-import "datatables.net-dt/js/dataTables.dataTables.js";
-import "datatables.net-buttons/js/dataTables.buttons.js";
-import "datatables.net-buttons/js/buttons.print.js";
-import "datatables.net-buttons/js/buttons.html5.js";
-import "datatables.net-colreorder/js/dataTables.colReorder.js";
-import "datatables.net-rowgroup/js/dataTables.rowGroup.js";
-import "datatables.net-colreorder-dt/css/colReorder.dataTables.css";
+import "../node_modules/datatables.net/js/jquery.dataTables.js";
+import "../node_modules/datatables.net-dt/js/dataTables.dataTables.js";
+import "../node_modules/datatables.net-buttons/js/dataTables.buttons.js";
+import "../node_modules/datatables.net-buttons/js/buttons.print.js";
+import "../node_modules/datatables.net-buttons/js/buttons.html5.js";
+import "../node_modules/datatables.net-colreorder/js/dataTables.colReorder.js";
+import "../node_modules/datatables.net-rowgroup/js/dataTables.rowGroup.js";
+import "../node_modules/datatables.net-colreorder-dt/css/colReorder.dataTables.css";
 import "survey-analytics/survey.analytics.datatables.css";
 
 export default class SurveyAnalyticsDatatables extends Component {

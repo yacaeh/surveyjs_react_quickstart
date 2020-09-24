@@ -19,31 +19,31 @@ export default function SurveyJSReactApplication() {
           <div className="container-fluid">
             <div className="navbar-header">
               <a className="navbar-brand" href="/">
-                SurveyJS + ReactJS
+                블링커스
               </a>
             </div>
             <ul className="nav navbar-nav">
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">홈</Link>
               </li>
               <li>
-                <Link to="/survey">Survey</Link>
+                <Link to="/survey">유형검사</Link>
               </li>
               <li>
-                <Link to="/creator">SurveyJS Creator</Link>
+                <Link to="/creator">검사지 만들기</Link>
               </li>
               <li>
-                <Link to="/export">Export to PDF</Link>
+                <Link to="/export">PDF로 만들기</Link>
               </li>
               <li>
-                <Link to="/analytics">Analytics</Link>
+                <Link to="/analytics">분석결과</Link>
               </li>
               <li>
-                <Link to="/analyticstabulator">Results Table</Link>
+                <Link to="/analyticstabulator">결과 테이블</Link>
               </li>
               <li>
                 <Link to="/analyticsdatatables">
-                  Results Table (IE Support)
+                  결과테이블 (IE 버전)
                 </Link>
               </li>
             </ul>

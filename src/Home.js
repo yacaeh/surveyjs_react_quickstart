@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 
 export function HomePage() {
     return (
@@ -8,11 +8,9 @@ export function HomePage() {
                 <img className="App-logo" src={logo} alt="ReactJS"/>
             </div>
             <div className="col-lg-9 jumbotron">
-                <h1>SurveyJS + ReactJS quickstart</h1>
+                <h1>블링커스 공부유형 검사</h1>
                 <p>
-                    We have been developing and supporting our library for several years. We helped hundreds of companies across many industries. We carefully reviewed every survey and form from our customerscustomers to add the necessary functionality that covers all the popular scenarios.
-                    We are confident, that you can build almost everything, that popular cloud services offer, using SurveyJS library. You can extend our SurveyJS Library and change its behavior.
-                </p>
+                더 나은 내일을 위해 오늘의 노력과 집중이 필요한 순간이 있습니다. 집중을 위한 최적의 공간 컨설팅, 블링커스 입니다.</p>
             </div>
         </div>
     );
