@@ -21,7 +21,7 @@ import "pretty-checkbox/dist/pretty-checkbox.css";
 
 import * as widgets from "surveyjs-widgets";
 
-SurveyJSCreator.StylesManager.applyTheme("default");
+SurveyJSCreator.StylesManager.applyTheme("stone");
 
 //widgets.icheck(SurveyKo, $);
 widgets.prettycheckbox(SurveyKo);

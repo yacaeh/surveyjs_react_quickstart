@@ -4,6 +4,8 @@ import { VisualizationPanel } from "survey-analytics";
 import "survey-analytics/survey.analytics.css";
 import * as Survey from "survey-react";
 
+Survey.StylesManager.applyTheme("stone");
+
 export default class SurveyAnalytics extends Component {
   visPanel;
   componentDidMount() {

@@ -4,6 +4,9 @@ import { Tabulator } from "survey-analytics/survey.analytics.tabulator.js";
 import * as Survey from "survey-react";
 import "survey-analytics/survey.analytics.tabulator.css";
 import "tabulator-tables/dist/css/tabulator.min.css";
+
+Survey.StylesManager.applyTheme("stone");
+
 export default class SurveyAnalyticsTabulator extends Component {
   visPanel;
   componentDidMount() {

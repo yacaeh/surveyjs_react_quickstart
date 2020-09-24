@@ -25,7 +25,7 @@ window["$"] = window["jQuery"] = $;
 
 export { MyQuestion } from "./MyQuestion";
 
-Survey.StylesManager.applyTheme("default");
+Survey.StylesManager.applyTheme("stone");
 
 //widgets.icheck(Survey, $);
 widgets.prettycheckbox(Survey);
@@ -51,7 +51,7 @@ function onComplete(result) {
 
 
 export function SurveyPage() {
-    var model = new Survey.Model(json);
+    var model = new Survey.Model('');
     return (
     <div className="container">
         <h2>성격유형 검사</h2>

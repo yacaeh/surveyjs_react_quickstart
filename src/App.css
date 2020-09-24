@@ -3,9 +3,9 @@
 }
 
 .App-logo {
-  width:100px;
-  height:100px;
-  animation: App-logo-spin infinite 5s linear;
+  width:250px;
+  height:250px;
+  /*animation: App-logo-spin infinite 5s linear;*/
 }
 
 @keyframes App-logo-spin {
