@@ -6,7 +6,7 @@ import "survey-creator/survey-creator.css";
 import "jquery-ui/themes/base/all.css";
 import "nouislider/distribute/nouislider.css";
 import "select2/dist/css/select2.css";
-import "bootstrap-slider/dist/css/bootstrap-slider.css";
+import "../node_modules/bootstrap-slider/dist/css/bootstrap-slider.css";
 
 import "jquery-bar-rating/dist/themes/css-stars.css";
 import "jquery-bar-rating/dist/themes/fontawesome-stars.css";
