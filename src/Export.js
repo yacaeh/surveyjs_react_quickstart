@@ -2,9 +2,9 @@ import React from "react";
 
 import $ from "jquery";
 
-import * as SurveyCore from "../node_modules/survey-core";
-import * as widgets from "../node_modules/surveyjs-widgets";
-import * as SurveyPDF from "../node_modules/survey-pdf";
+import * as SurveyCore from "survey-core";
+import * as widgets from "surveyjs-widgets";
+import * as SurveyPDF from "survey-pdf";
 
 import { json } from "./survey_json.js";
 

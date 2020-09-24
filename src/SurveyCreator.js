@@ -1,25 +1,25 @@
 import React, { Component } from "react";
-import * as SurveyKo from "../node_modules/survey-knockout";
-import * as SurveyJSCreator from "../node_modules/survey-creator";
-import "../node_modules/survey-creator/survey-creator.css";
+import * as SurveyKo from "survey-knockout";
+import * as SurveyJSCreator from "survey-creator";
+import "survey-creator/survey-creator.css";
 
-import "../node_modules/jquery-ui/themes/base/all.css";
-import "../node_modules/nouislider/distribute/nouislider.css";
-import "../node_modules/select2/dist/css/select2.css";
-import "../node_modules/bootstrap-slider/dist/css/bootstrap-slider.css";
+import "jquery-ui/themes/base/all.css";
+import "nouislider/distribute/nouislider.css";
+import "select2/dist/css/select2.css";
+import "bootstrap-slider/dist/css/bootstrap-slider.css";
 
-import "../node_modules/jquery-bar-rating/dist/themes/css-stars.css";
-import "../node_modules/jquery-bar-rating/dist/themes/fontawesome-stars.css";
+import "jquery-bar-rating/dist/themes/css-stars.css";
+import "jquery-bar-rating/dist/themes/fontawesome-stars.css";
 
 import $ from "jquery";
-import "../node_modules/jquery-ui/ui/widgets/datepicker.js";
-import "../node_modules/select2/dist/js/select2.js";
-import "../node_modules/jquery-bar-rating";
+import "jquery-ui/ui/widgets/datepicker.js";
+import "select2/dist/js/select2.js";
+import "jquery-bar-rating";
 
 //import "icheck/skins/square/blue.css";
-import "../node_modules/pretty-checkbox/dist/pretty-checkbox.css";
+import "pretty-checkbox/dist/pretty-checkbox.css";
 
-import * as widgets from "../node_modules/surveyjs-widgets";
+import * as widgets from "surveyjs-widgets";
 
 SurveyJSCreator.StylesManager.applyTheme("default");
 

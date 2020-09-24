@@ -1,5 +1,5 @@
 import React from "react";
-import * as Survey from "../node_modules/survey-react";
+import * as Survey from "survey-react";
 
 export class MyQuestionModel extends Survey.Question {
   getType() {
