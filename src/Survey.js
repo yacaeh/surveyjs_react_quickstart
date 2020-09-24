@@ -8,12 +8,12 @@ import "nouislider/distribute/nouislider.css";
 import "select2/dist/css/select2.css";
 import "../node_modules/bootstrap-slider/dist/css/bootstrap-slider.css";
 
-import "jquery-bar-rating/dist/themes/css-stars.css";
+import "../node_modules/jquery-bar-rating/dist/themes/css-stars.css";
 
 import $ from "jquery";
 import "jquery-ui/ui/widgets/datepicker.js";
 import "select2/dist/js/select2.js";
-import "jquery-bar-rating";
+import "../node_modules/jquery-bar-rating";
 
 import "pretty-checkbox/dist/pretty-checkbox.css";
 
