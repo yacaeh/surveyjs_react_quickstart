@@ -68,6 +68,15 @@ class SurveyCreator extends Component {
   }
   saveMySurvey = () => {
     console.log(JSON.stringify(this.surveyCreator.text));
+    // save client side
+      const fileData = JSON.stringify(this.surveyCreator.text);
+      const blob = new Blob([fileData], {type: "text/plain"});
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.download = 'survey.json';
+      link.href = url;
+      link.click();
+    // save from server
   };
 }
 
