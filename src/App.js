@@ -41,11 +41,11 @@ export default function SurveyJSReactApplication() {
               <li>
                 <Link to="/analyticstabulator">결과 테이블</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/analyticsdatatables">
                   결과테이블 (IE 버전)
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>

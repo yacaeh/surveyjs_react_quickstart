@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { data, json } from "./analytics_data";
-import { VisualizationPanel } from "survey-analytics";
-import "survey-analytics/survey.analytics.css";
-import * as Survey from "survey-react";
+import { VisualizationPanel } from "../node_modules/survey-analytics";
+import "../node_modules/survey-analytics/survey.analytics.css";
+import * as Survey from "../node_modules/survey-react";
 
 export default class SurveyAnalytics extends Component {
   visPanel;

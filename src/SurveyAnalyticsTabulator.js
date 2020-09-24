@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { data, json } from "./analytics_data";
-import { Tabulator } from "survey-analytics/survey.analytics.tabulator.js";
-import * as Survey from "survey-react";
-import "survey-analytics/survey.analytics.tabulator.css";
-import "tabulator-tables/dist/css/tabulator.min.css";
+import { Tabulator } from "../node_modules/survey-analytics/survey.analytics.tabulator.js";
+import * as Survey from "../node_modules/survey-react";
+import "../node_modules/survey-analytics/survey.analytics.tabulator.css";
+import "../node_modules/tabulator-tables/dist/css/tabulator.min.css";
 export default class SurveyAnalyticsTabulator extends Component {
   visPanel;
   componentDidMount() {
