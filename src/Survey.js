@@ -1,6 +1,6 @@
 import React from "react";
-import * as Survey from "survey-react";
-import * as widgets from "surveyjs-widgets";
+import * as Survey from "../node_modules/survey-react";
+import * as widgets from "../node_modules/surveyjs-widgets";
 import "../node_modules/survey-react/survey.css";
 
 import "../node_modules/jquery-ui/themes/base/all.css";
