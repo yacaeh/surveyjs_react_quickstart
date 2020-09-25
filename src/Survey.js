@@ -51,7 +51,8 @@ function onValueChanged(result) {
 }
 
 function onComplete(result) {
-    console.log("Complete! " + result);
+    console.log(result);
+    console.log(result.valuesHash)
 }
 
 function surveyFile(file){
