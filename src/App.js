@@ -32,9 +32,9 @@ export default function SurveyJSReactApplication() {
               <li>
                 <Link to="/creator">검사지 만들기</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/export">PDF로 만들기</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/analytics">분석결과</Link>
               </li>
@@ -60,15 +60,15 @@ export default function SurveyJSReactApplication() {
           <Route path="/creator">
             <CreatorPage />
           </Route>
-          <Route path="/export">
+          {/* <Route path="/export">
             <ExportToPDFPage />
-          </Route>
+          </Route> */}
           <Route path="/analytics">
             <AnalyticsPage />
           </Route>
-          <Route path="/analyticsdatatables">
+          {/* <Route path="/analyticsdatatables">
             <AnalyticsDatatablesPage />
-          </Route>
+          </Route> */}
           <Route path="/analyticstabulator">
             <AnalyticsTabulatorPage />
           </Route>
