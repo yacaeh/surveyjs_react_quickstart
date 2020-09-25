@@ -1,6 +1,6 @@
 export const json = {
   completedHtml:
-    "<p style='font-size:24px;'>Thank you for completing the survey! (please wait for analytics to load ...)<p>",
+    "<p style='font-size:24px;'>분석결과를 불러오고 있습니다...!<p>",
   pages: [
     {
       name: "page_info",
